@@ -45,9 +45,6 @@ body{
     color: #fff;
     font-weight: 500;
     margin: 14px 0 30px;
-
-
-
 }
 
 .card-list .card-item .message-button{
@@ -59,4 +56,12 @@ body{
     cursor: pointer;
     background-color: white;
     border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover{
+     background: rgba(255, 255, 255, 0.1);
+     border: 1px solid #ffff;
+     color: #fff;
+
 }
