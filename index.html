@@ -4,23 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Slider</title>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+    <div class="container swiper">
         <div class="slider-wrapper">
-            <div class="card-list">
-                <div class="card-item">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-wrapper">
+                    <img src="ABM Maruf.avif" alt="User Image" class="user-image">
+                    <h2 class="user-name">ABM Maruf</h2>
+                    <p class="user-profession">Wordpress Developer</p>
+                    <button class="message-button">Message</button> 
+                </div>
+
+                <div class="card-item swiper-wrapper">
+                    <img src="Tanzim Abir.jpg" alt="User Image" class="user-image">
+                    <h2 class="user-name">Tanzim Abir</h2>
+                    <p class="user-profession">CEO</p>
+                    <button class="message-button">Message</button>
+                </div>
+
+                <div class="card-item swiper-wrapper">
+                    <img src="Jahid Hasan Sadi.avif" alt="User Image" class="user-image">
+                    <h2 class="user-name">Jahid Hasan Sadi</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+
+                <div class="card-item swiper-wrapper">
+                    <img src="/Tanvir Rahat.jpg" alt="User Image" class="user-image">
+                    <h2 class="user-name">Tanvir Rahat</h2>
+                    <p class="user-profession">Digital Marketer</p>
+                    <button class="message-button">Message</button>
+                </div>
+
+                <div class="card-item swiper-wrapper">
                     <img src="ABM Maruf.avif" alt="User Image" class="user-image">
                     <h2 class="user-name">ABM Maruf</h2>
                     <p class="user-profession">Wordpress Developer</p>
                     <button class="message-button">Message</button>
-                    
                 </div>
-            </div>
-        </div>
+
+                <div class="card-item swiper-wrapper">
+                    <img src="Tanzim Abir.jpg" alt="User Image" class="user-image">
+                    <h2 class="user-name">Tanzim Abir</h2>
+                    <p class="user-profession">CEO</p>
+                    <button class="message-button">Message</button>
+                </div>
+
+                <div class="card-item swiper-wrapper">
+                    <img src="Jahid Hasan Sadi.avif" alt="User Image" class="user-image">
+                    <h2 class="user-name">Jahid Hasan Sadi</h2>
+                    <p class="user-profession">Software Developer</p>
+                    <button class="message-button">Message</button>
+                </div>
+
+                <div class="card-item swiper-wrapper">
+                        <img src="Jahid Hasan Sadi.avif" alt="User Image" class="user-image">
+                        <h2 class="user-name">Jahid Hasan Sadi</h2>
+                        <p class="user-profession">Software Developer</p>
+                        <button class="message-button">Message</button>
+                    </div>
+            </div> 
+
+            
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+    
+        </div> 
     </div> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Linking custom Js -->
+    <script src="script.js"></script>
     
 </body>
 </html>

@@ -12,7 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;  /* view height  */
-    background: url(Background.avif) rgb(48, 47, 47) no-repeat center;
+    background: url(bg.jpg) black no-repeat center;
 }
 
 .card-list .card-item{
@@ -25,7 +25,7 @@ body{
     justify-content: center;
     border-radius: 8px;
     backdrop-filter: blur(30px);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     background: rgba(255, 255, 255, 0.2);
 
 
@@ -44,7 +44,7 @@ body{
     font-size: 1.15rem;
     color: #fff;
     font-weight: 500;
-    margin: 14px 0 30px;
+    margin: 14px 0 40px;
 }
 
 .card-list .card-item .message-button{
@@ -63,5 +63,5 @@ body{
      background: rgba(255, 255, 255, 0.1);
      border: 1px solid #ffff;
      color: #fff;
-
 }
+
